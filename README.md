@@ -53,8 +53,8 @@ MeshAssignment/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/MeshAssignment.git
-cd MeshAssignment
+git clone https://github.com/error077-ux/Mixar_Final_Assignment.git
+cd Mixar_Final_Assignment
 ```
 
 ### 2. Create a Virtual Environment
