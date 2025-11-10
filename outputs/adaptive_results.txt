@@ -1,0 +1,10 @@
+Adaptive Quantization Experiment Results
+----------------------------------------
+Version 1: Uniform=2.335199e-06, Adaptive=9.311213e-06
+Version 2: Uniform=2.301778e-06, Adaptive=9.169521e-06
+Version 3: Uniform=2.306003e-06, Adaptive=9.264560e-06
+Version 4: Uniform=2.230540e-06, Adaptive=8.879532e-06
+Version 5: Uniform=2.306025e-06, Adaptive=9.382062e-06
+
+Average Uniform MSE: 2.2959089458462207e-06
+Average Adaptive MSE: 9.201377752278997e-06

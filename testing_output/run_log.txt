@@ -1,0 +1,67 @@
+
+=== Core Mesh Preprocessing (Normalization + Quantization) ===
+
+Processing: branch.obj (2767 vertices)
+minmax -> MSE=0.00000078, MAE=0.00073400
+unit_sphere -> MSE=0.00000234, MAE=0.00132481
+
+Processing: cylinder.obj (192 vertices)
+minmax -> MSE=0.00000080, MAE=0.00061095
+unit_sphere -> MSE=0.00000257, MAE=0.00138242
+
+Processing: explosive.obj (2844 vertices)
+minmax -> MSE=0.00000012, MAE=0.00027523
+unit_sphere -> MSE=0.00000043, MAE=0.00057430
+
+Processing: fence.obj (1090 vertices)
+minmax -> MSE=0.00000016, MAE=0.00027282
+unit_sphere -> MSE=0.00000036, MAE=0.00049395
+
+Processing: girl.obj (8400 vertices)
+minmax -> MSE=0.00000021, MAE=0.00036987
+unit_sphere -> MSE=0.00000036, MAE=0.00052223
+
+Processing: person.obj (3106 vertices)
+minmax -> MSE=0.00000079, MAE=0.00069171
+unit_sphere -> MSE=0.00000179, MAE=0.00115379
+
+Processing: table.obj (3148 vertices)
+minmax -> MSE=0.00000015, MAE=0.00030674
+unit_sphere -> MSE=0.00000047, MAE=0.00059892
+
+Processing: talwar.obj (1681 vertices)
+minmax -> MSE=0.00000013, MAE=0.00022840
+unit_sphere -> MSE=0.00000060, MAE=0.00066850
+
+All meshes processed successfully. Summary saved to results_summary.csv
+
+
+
+=== Seam Tokenization Prototype (Bonus Task 1) ===
+=== Seam Tokenization Prototype ===
+Detected 1108 seam-like edges.
+Example tokens: ['SEAM_18_8', 'SEAM_6_1', 'SEAM_18_28', 'SEAM_8_18', 'SEAM_26_11', 'SEAM_20_10', 'SEAM_29_19', 'SEAM_30_15', 'SEAM_31_21', 'SEAM_21_31']
+Decoded edges (sample): [(18, 8), (6, 1), (18, 28), (8, 18), (26, 11)]
+Token list saved as seam_tokens.txt
+
+
+
+=== Adaptive Quantization Experiment (Bonus Task 2) ===
+Loaded mesh with 2767 vertices for adaptive quantization test.
+Version 1: Uniform MSE=2.358033e-06, Adaptive MSE=9.246232e-06
+Version 2: Uniform MSE=2.344818e-06, Adaptive MSE=9.467755e-06
+Version 3: Uniform MSE=2.297687e-06, Adaptive MSE=9.223596e-06
+Version 4: Uniform MSE=2.350145e-06, Adaptive MSE=9.493222e-06
+Version 5: Uniform MSE=2.310951e-06, Adaptive MSE=9.123075e-06
+
+Average Uniform MSE: 2.332326645609466e-06
+Average Adaptive MSE: 9.310775864335246e-06
+Adaptive Quantization Experiment completed successfully.
+Results saved to outputs\adaptive_results.txt
+
+
+
+=== Project Integrity Verification ===
+Integrity test results saved to testing_output\integrity_log_2025-11-10_10-44-23.txt
+
+
